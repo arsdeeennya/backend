@@ -20,6 +20,7 @@ docker-compose==1.25.5
 dockerpty==0.4.1
 docopt==0.6.2
 future==0.16.0
+gunicorn
 idna==3.2
 jmespath==0.10.0
 jsonschema==3.2.0
@@ -42,3 +43,4 @@ texttable==1.6.4
 urllib3==1.25.11
 wcwidth==0.1.9
 websocket-client==0.59.0
+whitenoise
