@@ -58,7 +58,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "https://master.duo9sfxbzh0rw.amplifyapp.com/"
+    "http://localhost:3000"
 ]
 
 ROOT_URLCONF = 'mysite.urls'
