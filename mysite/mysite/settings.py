@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '(0&nf##1c0lk=wn4jdl0je*y-ttmt7uy2=$xp5vr#n%qvh9=7*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -58,7 +58,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000"
+    "https://master.duo9sfxbzh0rw.amplifyapp.com/"
 ]
 
 ROOT_URLCONF = 'mysite.urls'
